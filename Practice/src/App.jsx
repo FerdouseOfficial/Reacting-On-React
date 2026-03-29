@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
 import WelcomeMessage from "./components/WelcomeMessage";
+import JSXRules from "./components/JSXRules";
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       <Header />
       <MainContent />
       <Footer /> */}
-      <WelcomeMessage/>  sade gamsa longi ase
+      {/* <WelcomeMessage/>  */}
+      <JSXRules />
     </div>
   );
 };
