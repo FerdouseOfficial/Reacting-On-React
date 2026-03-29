@@ -24,7 +24,8 @@
 import React from "react";
 
 const Greet = () => {
-  let greet = "Hello Everyone I am Jihad";
+  let name = "Jihad"
+  let greet = `Hello Everyone, I am ${name}`;
   let intro = "I am a billionaire. ";
   let date =  new Date();
   return (

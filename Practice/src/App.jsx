@@ -5,6 +5,7 @@ import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
 import WelcomeMessage from "./components/WelcomeMessage";
 import JSXRules from "./components/JSXRules";
+import ProductInfo from "./components/ProductInfo";
 
 const App = () => {
   return (
@@ -19,7 +20,8 @@ const App = () => {
 
     <div>
       {/* <h2>2+2 is {2 + 2}</h2> */}
-      <Greet />
+      {/* <Greet /> */}
+      <ProductInfo/>
     </div>
   );
 };
