@@ -8,13 +8,17 @@ import JSXRules from "./components/JSXRules";
 
 const App = () => {
   return (
+    // <div>
+    //   {/* <Greet />
+    //   <Header />
+    //   <MainContent />
+    //   <Footer /> */}
+    //   {/* <WelcomeMessage/>  */}
+    //   <JSXRules/>
+    // </div>
+
     <div>
-      {/* <Greet />
-      <Header />
-      <MainContent />
-      <Footer /> */}
-      {/* <WelcomeMessage/>  */}
-      <JSXRules />
+      <h2>2+2 is {2 + 2}</h2>
     </div>
   );
 };
