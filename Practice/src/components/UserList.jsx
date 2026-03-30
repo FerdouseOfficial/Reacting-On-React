@@ -6,15 +6,19 @@ const UserList = () => {
     { id: 2, name: "Bob", age: 30 },
     { id: 3, name: "Charlie", age: 22 },
   ];
-  return <div>
-    { user.map(({ id, name, age }) => {
-        return <ul key={id}>
-            <li> {id} </li>
-            <li> {name} </li>
+  return (
+    <div className="flex justify-center items-center h-screen gap-10">
+      {user.map(({ id, name, age }) => {
+        return (
+          <ul key={id} className="flex flex-col gap-11">
+            {/* <li> {id} </li> */}
+            <li className="mr-3"> {name} </li>
             <li> {age} </li>
-        </ul>
-    }) }
-  </div>;
+          </ul>
+        );
+      })}
+    </div>
+  );
 };
 
 export default UserList;
