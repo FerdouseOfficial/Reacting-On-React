@@ -74,7 +74,7 @@ const App = () => {
     //     {/* <Temperature temp="24" /> */}
     // </div>
     <div>
-      <UserStatus isloggedIn={true} isAdmin={false} />
+      {/* <UserStatus isloggedIn={true} isAdmin={false} /> */}
       {/* <Greeting timeOfDay="morning" /> */}
     </div>
 
