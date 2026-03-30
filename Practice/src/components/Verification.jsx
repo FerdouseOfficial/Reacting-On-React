@@ -17,6 +17,7 @@ const Verification = ({ isValid }) => {
   }
 
   return <div> {content} </div>;
+  // Solving anohter problem
 };
 
 export default Verification;

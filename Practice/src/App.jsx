@@ -65,7 +65,8 @@ const App = () => {
       {/* <Person name="Jihad" age="18" />
       <Product name="Laptop" price="1299" /> */}
 
-      <Verification isValid={true}/>
+      <Verification isValid={true}/> 
+      
     </div>
   );
 };
