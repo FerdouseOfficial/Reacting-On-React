@@ -6,7 +6,15 @@ const UserList = () => {
     { id: 2, name: "Bob", age: 30 },
     { id: 3, name: "Charlie", age: 22 },
   ];
-  return <div></div>;
+  return <div>
+    { user.map(({ id, name, age }) => {
+        return <ul key={id}>
+            <li> {id} </li>
+            <li> {name} </li>
+            <li> {age} </li>
+        </ul>
+    }) }
+  </div>;
 };
 
 export default UserList;
