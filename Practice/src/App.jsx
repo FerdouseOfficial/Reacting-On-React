@@ -61,6 +61,7 @@ import UserStatus from "./components/UserStatus";
 import Greeting from "./components/Greeting";
 import StyledCard from "./components/StyledCard";
 import ProfileCard from "./components/ProfileCard";
+import IconComponent from "./components/IconComponent";
 
 const App = () => {
   return (
@@ -79,7 +80,8 @@ const App = () => {
       {/* <UserStatus isloggedIn={true} isAdmin={false} /> */}
       {/* <Greeting timeOfDay="morning" /> */}
       {/* <StyledCard/> */}
-      <ProfileCard/>
+      {/* <ProfileCard/> */}
+      <IconComponent/>
     </div>
 
   );
