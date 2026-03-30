@@ -53,16 +53,18 @@ import Pr_Expressions from "./components/Pr_Expressions";
 import UserList from "./components/UserList";
 import ProductLists from "./components/ProductLists";
 import Person from "./components/Person";
+import Product from "./components/Product";
 
 const App = () => {
   return (
     <div>
       {/* <Pr_Expressions/> */}
       {/* <UserList/>
-      <ProductLists/> */}  
+      <ProductLists/> */}
       <Person name="Jihad" age="18" />
+      <Product name="Laptop" price="1299" />
     </div>
-  ); 
+  );
 };
 
-export default App; 
+export default App;
