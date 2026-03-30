@@ -11,7 +11,7 @@ const PracticeEvent = () => {
         Click
       </button>
     </div>
-  );
+  ); 
 };
 
 export default PracticeEvent;
