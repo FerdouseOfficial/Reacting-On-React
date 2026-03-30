@@ -57,20 +57,27 @@ import Product from "./components/Product";
 import Verification from "./components/Verification";
 import Cart from "./components/Cart";
 import Temperature from "./components/Temperature";
+import UserStatus from "./components/UserStatus";
+import Greeting from "./components/Greeting";
 
 const App = () => {
   return (
-    <div>
-      {/* <Pr_Expressions/> */}
-      {/* <UserList/>
-      <ProductLists/> */}
-      {/* <Person name="Jihad" age="18" />
-      <Product name="Laptop" price="1299" /> */}
+    // <div>
+    //   {/* <Pr_Expressions/> */}
+    //   {/* <UserList/>
+    //   <ProductLists/> */}
+    //   {/* <Person name="Jihad" age="18" />
+    //   <Product name="Laptop" price="1299" /> */}
 
-      {/* <Verification isValid={true}/>  */}
-        {/* <Cart/> */}
-        <Temperature temp="24" />
+    //   {/* <Verification isValid={true}/>  */}
+    //     {/* <Cart/> */}
+    //     {/* <Temperature temp="24" /> */}
+    // </div>
+    <div>
+      <UserStatus isloggedIn={true} isAdmin={false} />
+      {/* <Greeting timeOfDay="morning" /> */}
     </div>
+
   );
 };
 
