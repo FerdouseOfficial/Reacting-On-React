@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import PracticeEvent from "./components/PracticeEvent";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      <PracticeEvent />
+    </div>
+  );
+};
 
-export default App
+export default App;
