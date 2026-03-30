@@ -62,6 +62,7 @@ import Greeting from "./components/Greeting";
 import StyledCard from "./components/StyledCard";
 import ProfileCard from "./components/ProfileCard";
 import IconComponent from "./components/IconComponent";
+import Button from "./components/Button";
 
 const App = () => {
   return (
@@ -81,11 +82,10 @@ const App = () => {
       {/* <Greeting timeOfDay="morning" /> */}
       {/* <StyledCard/> */}
       {/* <ProfileCard/> */}
-      <IconComponent/>
+      {/* <IconComponent /> */}
+      <Button />
     </div>
-
   );
 };
 
 export default App;
- 
