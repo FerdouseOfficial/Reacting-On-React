@@ -60,7 +60,7 @@ const App = () => {
       {/* <UserList/>
       <ProductLists/> */}  
     </div>
-  );
+  ); 
 };
 
-export default App;
+export default App; 
