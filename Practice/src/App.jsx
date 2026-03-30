@@ -52,6 +52,7 @@ import React from "react";
 import Pr_Expressions from "./components/Pr_Expressions";
 import UserList from "./components/UserList";
 import ProductLists from "./components/ProductLists";
+import Person from "./components/Person";
 
 const App = () => {
   return (
@@ -59,6 +60,7 @@ const App = () => {
       {/* <Pr_Expressions/> */}
       {/* <UserList/>
       <ProductLists/> */}  
+      <Person name="Jihad" age="18" />
     </div>
   ); 
 };
