@@ -56,6 +56,7 @@ import Person from "./components/Person";
 import Product from "./components/Product";
 import Verification from "./components/Verification";
 import Cart from "./components/Cart";
+import Temperature from "./components/Temperature";
 
 const App = () => {
   return (
@@ -67,7 +68,8 @@ const App = () => {
       <Product name="Laptop" price="1299" /> */}
 
       {/* <Verification isValid={true}/>  */}
-        <Cart/>
+        {/* <Cart/> */}
+        <Temperature temp="24" />
     </div>
   );
 };
