@@ -48,12 +48,10 @@
 
 // export default App;
 
-
-
-import React from 'react'
-import Pr_Expressions from './components/Pr_Expressions'
-import UserList from './components/UserList'
-import ProductLists from './components/ProductLists'
+import React from "react";
+import Pr_Expressions from "./components/Pr_Expressions";
+import UserList from "./components/UserList";
+import ProductLists from "./components/ProductLists";
 
 const App = () => {
   return (
@@ -62,7 +60,7 @@ const App = () => {
       {/* <UserList/>
       <ProductLists/> */}
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

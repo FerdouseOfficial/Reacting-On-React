@@ -13,8 +13,8 @@ const ProductLists = () => {
       {product.map(({ id, Name, Price }) => {
         return (
           <ul key={id} className="flex flex-col gap-5">
-            <li> {Name} </li>
-            <li> {Price} </li>
+            <li> Name: {Name} </li>
+            <li> Price: {Price} </li>
           </ul>
         );
       })}

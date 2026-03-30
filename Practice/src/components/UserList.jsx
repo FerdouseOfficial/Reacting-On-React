@@ -12,8 +12,8 @@ const UserList = () => {
         return (
           <ul key={id} className="flex flex-col gap-11">
             {/* <li> {id} </li> */}
-            <li className="mr-3"> {name} </li>
-            <li> {age} </li>
+            <li className="mr-3"> Name: {name} </li>
+            <li> Age: {age} </li>
           </ul>
         );
       })}
