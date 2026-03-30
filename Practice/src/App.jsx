@@ -26,18 +26,17 @@ import ProductInfo from "./components/ProductInfo";
 //   );
 // };
 
-
 const App = () => {
-  let list = [1, 2, 3, 4, 5]
+  let list = [1, 2, 3, 4, 5];
   return (
     <div className="flex flex-col items-center">
       {list.map((number) => (
-        <ul>
+        <ul key={number}>
           <li>{number}</li>
         </ul>
       ))}
     </div>
-  )
-}
+  );
+};
 
 export default App;
