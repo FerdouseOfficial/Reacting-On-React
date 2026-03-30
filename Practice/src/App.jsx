@@ -54,6 +54,7 @@ import UserList from "./components/UserList";
 import ProductLists from "./components/ProductLists";
 import Person from "./components/Person";
 import Product from "./components/Product";
+import Verification from "./components/Verification";
 
 const App = () => {
   return (
@@ -61,8 +62,10 @@ const App = () => {
       {/* <Pr_Expressions/> */}
       {/* <UserList/>
       <ProductLists/> */}
-      <Person name="Jihad" age="18" />
-      <Product name="Laptop" price="1299" />
+      {/* <Person name="Jihad" age="18" />
+      <Product name="Laptop" price="1299" /> */}
+
+      <Verification isValid={true}/>
     </div>
   );
 };

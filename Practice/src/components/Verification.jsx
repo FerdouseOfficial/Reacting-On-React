@@ -1,21 +1,22 @@
 import React from "react";
 
-const Verification = () => {
-  const ValidPassworrd = () => {
-    <h1>Valid Password</h1>;
+const Verification = ({ isValid }) => {
+  const ValidPassword = () => {
+    return <h1>Valid Password</h1>;
   };
-  const InvalidPassworrd = () => {
-    <h1>Invalid Password</h1>;
-  };
-
-  const Password = (isValid) => {
-    if (isValid) {
-      return <ValidPassworrd />;
-    }
-    return <InvalidPassworrd />;
+  const InvalidPassword = () => {
+    return <h1>Invalid Password</h1>;
   };
 
-  return <div></div>;
+  let content;
+
+  if (isValid) {
+    content = <ValidPassword />;
+  } else {
+    content = <InvalidPassword />;
+  }
+
+  return <div> {content} </div>;
 };
 
 export default Verification;
