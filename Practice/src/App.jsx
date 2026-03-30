@@ -60,6 +60,7 @@ import Temperature from "./components/Temperature";
 import UserStatus from "./components/UserStatus";
 import Greeting from "./components/Greeting";
 import StyledCard from "./components/StyledCard";
+import ProfileCard from "./components/ProfileCard";
 
 const App = () => {
   return (
@@ -77,7 +78,8 @@ const App = () => {
     <div>
       {/* <UserStatus isloggedIn={true} isAdmin={false} /> */}
       {/* <Greeting timeOfDay="morning" /> */}
-      <StyledCard/>
+      {/* <StyledCard/> */}
+      <ProfileCard/>
     </div>
 
   );
