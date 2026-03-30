@@ -55,6 +55,7 @@ import ProductLists from "./components/ProductLists";
 import Person from "./components/Person";
 import Product from "./components/Product";
 import Verification from "./components/Verification";
+import Cart from "./components/Cart";
 
 const App = () => {
   return (
@@ -65,8 +66,8 @@ const App = () => {
       {/* <Person name="Jihad" age="18" />
       <Product name="Laptop" price="1299" /> */}
 
-      <Verification isValid={true}/> 
-      
+      {/* <Verification isValid={true}/>  */}
+        <Cart/>
     </div>
   );
 };
