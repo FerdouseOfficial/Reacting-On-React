@@ -8,7 +8,7 @@ const Cart = () => {
       <h1>Cart 🛒</h1>
       {items.length > 0 && <h2>You have {items.length} items in your Cart.</h2>}
       <h4>Products</h4>
-      <ul>
+      <ul className="list-disc ml-6">
         {items.map((item) => {
           return <li key={Math.random()}> {item} </li>;
         })}
