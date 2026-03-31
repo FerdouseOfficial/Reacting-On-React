@@ -37,6 +37,9 @@ const StatePr = () => {
   const deleteOneFriend = () => {
     setFriend(friend.filter((f) => f !== "John"));
   };
+  const updateOneFriend = () => {
+    setFriend(friend.map((f) => (f === "Alex" ? "Alex Smith" : f)));
+  };
   return (
     <div className="flex flex-col justify-center items-center h-[70vh]">
       <div className="m-10 ml-">
@@ -61,8 +64,8 @@ const StatePr = () => {
         >
           Delete One Friend
         </button>
-        <button className="px-4 py-2 rounded bg-amber-500 ml-2 font-semibold cursor-pointer">
-          Something One Friend
+        <button onClick={updateOneFriend} className="px-4 py-2 rounded bg-amber-500 ml-2 font-semibold cursor-pointer">
+          Update One Friend
         </button>
       </div>
     </div>
