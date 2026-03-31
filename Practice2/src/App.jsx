@@ -7,7 +7,8 @@ const App = () => {
     <div>
       <h1 className="text-center font-bolder text-4xl uppercase">Work like hell. My Boy</h1>
       {/* <PracticeEvent /> */}
-      <StatePr/>
+      {/* <StatePr/> */}
+      
     </div>
   );
 };
