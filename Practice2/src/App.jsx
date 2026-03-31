@@ -3,6 +3,7 @@ import PracticeEvent from "./components/PracticeEvent";
 import StatePr from "./components/StatePr";
 import State from "./components/State";
 import Movie from "./components/Movie";
+import Example from "./components/Example";
 
 const App = () => {
   return (
@@ -11,7 +12,8 @@ const App = () => {
       {/* <PracticeEvent /> */}
       {/* <StatePr/> */}
       {/* <State/> */}
-      <Movie/>
+      {/* <Movie/> */}
+      <Example/>
     </div>
   );
 };
