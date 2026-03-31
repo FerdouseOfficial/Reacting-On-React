@@ -27,10 +27,46 @@
 
 // Practice useState on Array
 
-import React from "react";
+import React, { useState } from "react";
 
 const StatePr = () => {
-  return <div></div>;
+  const [friend, setFriend] = useState(["Alex", "John"]);
+  const addOneFriend = () => {
+    setFriend([...friend, "Jihad Molla"]);
+  };
+  const deleteOneFriend = () => {
+    setFriend(friend.filter((f) => f !== "John"));
+  };
+  return (
+    <div className="flex flex-col justify-center items-center h-[70vh]">
+      <div className="m-10 ml-">
+        {friend.map((f) => {
+          return (
+            <li key={Math.random()} className="mr-14">
+              {f}
+            </li>
+          );
+        })}
+      </div>
+      <div>
+        <button
+          onClick={addOneFriend}
+          className="px-4 py-2 rounded bg-amber-500 ml-2 font-semibold cursor-pointer"
+        >
+          Add One Friend
+        </button>
+        <button
+          onClick={deleteOneFriend}
+          className="px-4 py-2 rounded bg-amber-500 ml-2 font-semibold cursor-pointer"
+        >
+          Delete One Friend
+        </button>
+        <button className="px-4 py-2 rounded bg-amber-500 ml-2 font-semibold cursor-pointer">
+          Something One Friend
+        </button>
+      </div>
+    </div>
+  );
 };
 
 export default StatePr;
