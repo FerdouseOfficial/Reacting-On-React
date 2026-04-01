@@ -13,7 +13,7 @@ const App = () => {
       {/* <StatePr/> */}
       {/* <State/> */}
       {/* <Movie/> */}
-      <Example/>
+      <Example/>  
     </div>
   );
 };
