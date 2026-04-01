@@ -27,18 +27,17 @@ import React, { useState } from "react";
 const Example = () => {
   const [boom, setBoom] = useState("You are not going forgot me");
   const boomb = () => {
-    let tnt = document.querySelector("h1").innerHTML("Boom");
-    setBoom(tnt);
+    setBoom("Boom MotherFucker");
   };
   return (
     <div className="flex flex-col justify-center items-center h-[70vh]">
       <h1>{boom}</h1>
-      <buttons
-        onClick="boomb"
+      <button
+        onClick={boomb}
         className="px-4 py-2 bg-amber-300 roudded m-2 cursor-pointer"
       >
         Boom
-      </buttons>
+      </button>
     </div>
   );
 };
