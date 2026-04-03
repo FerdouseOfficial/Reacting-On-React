@@ -22,7 +22,7 @@
 
 // export default Example;
 
-import React, { useState } from "react";
+import React, { useState } from "react"; 
 
 const Example = () => {
   const [boom, setBoom] = useState("You are not going forgot me");
@@ -32,16 +32,16 @@ const Example = () => {
   return (
     <div className="flex flex-col justify-center items-center h-[70vh]">
       <h1>
-        {boom}:- Lower The voice of your Badself. Destroy your Currect
+        {boom}:- Lower The voice of your Badself. Destroy your Currect 
         Version{" "}
       </h1>
       <button
-        onClick={boomb}
+        onClick={boomb} 
         className="px-4 py-2 bg-amber-300 roudded m-2 cursor-pointer"
       >
         Boom
       </button>
-    </div>
+    </div> 
   );
 };
 
