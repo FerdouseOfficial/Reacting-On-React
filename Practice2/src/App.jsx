@@ -14,6 +14,7 @@ const App = () => {
       {/* <State/> */}
       {/* <Movie/> */}
       <Example/>  
+      <Headers/>
     </div>
   );
 };
