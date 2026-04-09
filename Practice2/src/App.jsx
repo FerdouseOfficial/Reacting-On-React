@@ -4,19 +4,23 @@ import StatePr from "./components/StatePr";
 import State from "./components/State";
 import Movie from "./components/Movie";
 import Example from "./components/Example";
+import RandomNumberGenerator from "./components/RandomNumberGenerator";
 
 const App = () => {
   return (
     <div>
-      <h1 className="text-center font-bolder text-4xl uppercase">Work like hell. My Boy</h1>
+      <h1 className="text-center font-bolder text-4xl uppercase">
+        Work like hell. My Boy
+      </h1>
       {/* <PracticeEvent /> */}
       {/* <StatePr/> */}
       {/* <State/> */}
       {/* <Movie/> */}
-      <Example/>  
-      <Headers/>
+      {/* <Example/>   */}
+      {/* <Headers/> */}
+      <RandomNumberGenerator />
     </div>
   );
 };
 
-export default App; 
+export default App;
